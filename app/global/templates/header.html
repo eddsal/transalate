@@ -1,0 +1,10 @@
+<header>
+    <div ng-controller="ctrl">
+        <button ng-click="lang('fr');"translate="Fr_Btn">fr</button>
+        <button ng-click="lang('en');" translate="En_Btn">Eng</button>
+    </div>
+    <h2>LE HEADER</h2>
+    <p ng-if="isSignedIn()">Bonjour {{getUser()}}</p>
+    <a href="#" ng-if="isSignedIn()" ng-click="logoutUser()">Se déconnectey</a>
+</header>
+<hr><br>

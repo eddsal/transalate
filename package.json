@@ -1,0 +1,21 @@
+{
+  "name": "apptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "angular-local-storage": "^0.7.1",
+    "angular-route": "^1.6.9"
+  },
+  "dependencies": {
+    "@ngx-translate/core": "^9.1.1",
+    "@ngx-translate/http-loader": "^2.0.1",
+    "ng-translator": "0.0.1"
+  }
+}
